@@ -10,11 +10,6 @@ const App: React.FC = () => {
     console.log(element)
   });
   
-  const test = () => {
-    cardNumber.map(element => {
-      return <Card></Card>  
-    })
-  }
   return (
     <div className="App">
       <header className="App-header">

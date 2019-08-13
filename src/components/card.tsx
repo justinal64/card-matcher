@@ -3,8 +3,7 @@
  */
 
 import * as React from "react";
-
-// type Props = { text: string; class: btnType; onclick?: function };
+import "./styles.css"
 
 interface Props {
   onclick?: any; // TODO: This needs to be fixed...
@@ -13,8 +12,11 @@ interface Props {
 export function Card(props: Props) {
 
   return (
-    <p>
-      This is a card
-    </p>
+    <div className="card">
+      <img src="https://cdn.mos.cms.futurecdn.net/sYGVH9XWiB85hzV22gBhpd-602-80.jpg"></img>
+      <div className="body">
+        Body
+      </div>
+    </div>
   );
 }
